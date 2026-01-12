@@ -37,4 +37,26 @@ footer {
 main img {
     width: 150px;  /* Fixed width for the profile image */
     height: auto;  /* Maintain aspect ratio */
+    border: 2px solid #ccc;  /* Add a light border around the image */
+    padding: 5px;  /* Padding inside the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add subtle box-shadow */
+}
+
+/* Style the nav element */
+nav {
+    background-color: #333;  /* Dark background color */
+    padding: 1rem;  /* Padding inside the nav */
+}
+
+/* Style the links inside the nav */
+nav a {
+    color: #fff;  /* White text color for links */
+    padding: 0.5rem 1rem;  /* Padding around the links */
+    display: block;  /* Make links block-level elements */
+    text-decoration: none;  /* Remove underline */
+}
+
+/* Style for h1 elements */
+h1 {
+    color: #333;  /* Dark text color for the h1 heading */
 }
