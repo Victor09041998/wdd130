@@ -1,0 +1,40 @@
+/* Limit the width of the main content */
+main {
+    max-width: 840px;
+    margin: 0 auto; /* Center the main content */
+}
+
+/* Style the aside element */
+aside {
+    width: 20rem;  /* Fixed width for the aside */
+    margin: 1rem;  /* Margin around the aside */
+    border: 1px solid rgb(0 0 0 / 0.2);  /* Light transparent border */
+    padding: 1rem;  /* Padding inside the aside */
+    background-color: #eee;  /* Light gray background */
+    color: #333;  /* Dark text color */
+    text-align: center;  /* Center-align the text */
+}
+
+/* Style the image inside the aside */
+aside img {
+    width: 200px;   /* Fixed width for the image */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+/* Set the padding for paragraph elements to 0 */
+p {
+    padding: 0;  /* No padding inside paragraphs */
+}
+
+/* Style the footer */
+footer {
+    margin-top: 15px;  /* Margin to separate the footer from content */
+    border-top: 1px solid #000;  /* Top border for the footer */
+    text-align: center;  /* Center-align the footer text */
+}
+
+/* Style the img inside main */
+main img {
+    width: 150px;  /* Fixed width for the profile image */
+    height: auto;  /* Maintain aspect ratio */
+}
