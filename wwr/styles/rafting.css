@@ -152,3 +152,65 @@ footer {
   width: 32px;
   margin-left: 8px;
 }
+
+/* Contact Page Grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin: 24px 0;
+}
+
+.contact-form label,
+.contact-form fieldset,
+.contact-form textarea,
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent1-color);
+}
+
+.map iframe {
+  width: 100%;
+  height: 200px;
+  border: 0;
+}
+
+/* Employee Profiles */
+.profile-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+  padding: 16px;
+}
+
+.profile-gallery figure {
+  text-align: center;
+}
+
+.profile-gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-gallery figcaption {
+  margin-top: 8px;
+  font-size: 1rem;
+}
